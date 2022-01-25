@@ -34,7 +34,7 @@ function countingValleys(steps, path) {
     let valleys = 0
     let pathArray = path.split('')
     console.log(pathArray)
-    for (let i = 0; i < pathArray.length; i++) {
+    for (let i = 0; i < steps; i++) {
         if (pathArray[i] === 'U') {
             altitude++
             if (altitude === 0) { //only runs if first if condition passes
