@@ -14,6 +14,8 @@
 
 // Input: nums = [1,1,1,3,3,4,3,2,4,2]
 // Output: true
+
+//hash map solution 
 var containsDuplicate = function(nums) {
     let obj = {}
     
