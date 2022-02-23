@@ -29,13 +29,27 @@
 // console.log(h.length)
 
 
-function removeChars(input) {
-    const regExp = /b|(ac)/g;
-    console.log(input.match(regExp))
-    while(input.match(regExp)) {
-      input = input.replace(regExp, '');
-    }
-    return input;
-  }
+// function removeChars(input) {
+//     const regExp = /b|(ac)/g;
+//     console.log(input.match(regExp))
+//     while(input.match(regExp)) {
+//       input = input.replace(regExp, '');
+//     }
+//     return input;
+//   }
 
-console.log(removeChars('abacacb'))
+// console.log(removeChars('abacacb'))
+
+let nums = [3,0,1]
+
+
+const iterate = () => {
+
+
+  for (const num of 9) {
+    console.log(num)
+  }
+}
+
+iterate()
+console.log(new Array(nums.length + 1).fill(-1))
