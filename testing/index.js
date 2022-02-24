@@ -40,16 +40,20 @@
 
 // console.log(removeChars('abacacb'))
 
-let nums = [3,0,1]
+// let nums = [3,0,1]
 
 
-const iterate = () => {
+// const iterate = () => {
 
 
-  for (const num of 9) {
-    console.log(num)
-  }
-}
+//   for (const num of 9) {
+//     console.log(num)
+//   }
+// }
 
-iterate()
-console.log(new Array(nums.length + 1).fill(-1))
+// iterate()
+// console.log(new Array(nums.length + 1).fill(-1))
+
+
+
+console.log(1 ^ 1)
